@@ -46,5 +46,24 @@ namespace Handwriting
                 }
             }
         }
+
+        public double sigmoid(double z)
+        {
+            return 1.0d / (1.0d + Math.Exp(-z));
+        }
+
+        public List<double> sigmoid(List<double> zvec)
+        {
+            zvec.ForEach( (z) => z = (1.0d / (1.0d + Math.Exp(-z))));
+            return zvec;
+        }
+
+        //public List<double> feedForward(List<double> a)
+        //{
+        //    for (int i = 0; i < sizes.Count; i++)
+        //    {
+        //        a[i] = 
+        //    }
+        //}
     }
 }

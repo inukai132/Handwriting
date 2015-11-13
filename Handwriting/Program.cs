@@ -10,7 +10,7 @@ namespace Handwriting
     {
         static void Main(string[] args)
         {
-            var n = new Network(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 });
+            var n = new Network(new List<int> { 3,4,3 });
             var l = 1 + 1;
         }
     }

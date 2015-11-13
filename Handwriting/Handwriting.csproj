@@ -47,10 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="images\t10k-images.idx3-ubyte" />
-    <None Include="images\t10k-labels.idx1-ubyte" />
-    <None Include="images\train-images.idx3-ubyte" />
-    <None Include="images\train-labels.idx1-ubyte" />
+    <None Include="Properties\images\t10k-images.idx3-ubyte" />
+    <None Include="Properties\images\t10k-labels.idx1-ubyte" />
+    <None Include="Properties\images\train-images.idx3-ubyte" />
+    <None Include="Properties\images\train-labels.idx1-ubyte" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
