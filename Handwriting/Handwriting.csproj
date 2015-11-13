@@ -41,12 +41,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extentions.cs" />
+    <Compile Include="LoaderMNist.cs" />
     <Compile Include="Network.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="images\t10k-images-idx3-ubyte.gz" />
+    <None Include="images\t10k-images.idx3-ubyte">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="images\t10k-labels-idx1-ubyte.gz" />
+    <None Include="images\t10k-labels.idx1-ubyte">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="images\train-images-idx3-ubyte.gz" />
+    <None Include="images\train-images.idx3-ubyte">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="images\train-labels-idx1-ubyte.gz" />
+    <None Include="images\train-labels.idx1-ubyte">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\images\t10k-images.idx3-ubyte" />
     <None Include="Properties\images\t10k-labels.idx1-ubyte" />
     <None Include="Properties\images\train-images.idx3-ubyte" />
